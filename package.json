@@ -1,0 +1,34 @@
+{
+	"name": "@seregpie/nearest-neighbor-chain",
+	"version": "1.0.0",
+	"description": "Builds a hierarchy of clusters.",
+	"keywords": [
+		"algorithm",
+		"array",
+		"cluster",
+		"collection",
+		"distance",
+		"hierarchy",
+		"method",
+		"object",
+		"technique"
+	],
+	"license": "MIT",
+	"author": "Sergej Sintschilin <seregpie@gmail.com>",
+	"files": [],
+	"main": "index.js",
+	"repository": "github:SeregPie/NearestNeighborChain",
+	"scripts": {
+		"build": "rollup -c",
+		"prepublishOnly": "npm run build",
+		"test": "node test"
+	},
+	"dependencies": {
+		"@seregpie/bron-kerbosch": "^1.0.0"
+	},
+	"devDependencies": {
+		"@rollup/plugin-buble": "^0.21.1",
+		"rollup": "^1.32.0",
+		"rollup-plugin-terser": "^5.2.0"
+	}
+}
