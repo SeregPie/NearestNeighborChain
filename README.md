@@ -59,7 +59,7 @@ Overlapping clusters are merged together.
 ```javascript
 let intersection = function(a, b) {
   a = new Set(a);
-	b = new Set(b);
+  b = new Set(b);
   return [...a].filter(v => b.has(v));
 };
 let array = ['ac', 'ab', 'baab', 'aba', 'bc'];
